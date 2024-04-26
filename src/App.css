@@ -12,6 +12,10 @@ body {
 	margin-left: 1em;
 }
 
+.recent_title {
+	color: white;
+}
+
 .shortcuts_container {
 	background-color: #f4d1ae;
 	border-radius: 20px;

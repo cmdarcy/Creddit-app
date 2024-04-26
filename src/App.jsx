@@ -10,7 +10,7 @@ function App() {
 			<Header />
 			<main className="main_container">
 				<section className="recent_container">
-					<h2>Recent Posts</h2>
+					<h2 className="recent_title">Recent Posts</h2>
 					<Cardlist />
 				</section>
 				<section className="posts_container">
@@ -19,17 +19,11 @@ function App() {
 				</section>
 				<section className="shortcuts_container">
 					<Shortcut
-						imgURL="../public/images/icons8-discussion-forum-48.png"
+						imgURL="/images/icons8-discussion-forum-48.png"
 						text="All"
 					/>
-					<Shortcut
-						imgURL="../public/images/icons8-popular-48.png"
-						text="Popular"
-					/>
-					<Shortcut
-						imgURL="../public/images/icons8-favorites-48.png"
-						text="Favorites"
-					/>
+					<Shortcut imgURL="/images/icons8-popular-48.png" text="Popular" />
+					<Shortcut imgURL="/images/icons8-favorites-48.png" text="Favorites" />
 				</section>
 			</main>
 			<Footer />
