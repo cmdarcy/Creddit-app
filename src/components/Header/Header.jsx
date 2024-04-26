@@ -1,8 +1,9 @@
 import ProfileIcon from "../ProfileIcon/ProfileIcon.jsx";
+import styles from "./Header.module.css";
 
 function Header() {
 	return (
-		<div className="header">
+		<div className={styles.header}>
 			<h1>Creddit</h1>
 			<input type="text" placeholder="Search" />
 			<ProfileIcon
