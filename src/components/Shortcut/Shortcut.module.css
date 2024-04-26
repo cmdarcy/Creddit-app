@@ -1,0 +1,9 @@
+.shortcut {
+	display: flex;
+	justify-content: space-between;
+}
+
+.shortcut_text {
+	color: #18193f;
+	stroke: white;
+}

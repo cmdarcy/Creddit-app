@@ -1,3 +1,9 @@
 .profileIcon {
 	max-height: 50px;
 }
+
+@media screen and (max-width: 750px) {
+	.profileIcon {
+		display: none;
+	}
+}
