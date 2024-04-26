@@ -21,6 +21,10 @@ body {
 }
 
 @media screen and (max-width: 750px) {
+	.main_container {
+		justify-content: center;
+	}
+
 	.recent_container,
 	.shortcuts_container {
 		display: none;
