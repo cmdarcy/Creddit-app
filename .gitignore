@@ -26,3 +26,7 @@ dist-ssr
 #image files
 *.zip
 *-96.png
+
+#coverage-reports
+coverage
+html
