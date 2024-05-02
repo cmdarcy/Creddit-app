@@ -2,7 +2,7 @@ import styles from "./Header.module.css";
 
 function Header() {
 	return (
-		<div className={styles.header}>
+		<div className={styles.header} data-testid="header">
 			<h1 className={styles.logo}>
 				<span className={styles.logo_C}>C</span>reddit
 			</h1>
