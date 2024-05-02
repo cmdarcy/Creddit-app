@@ -1,0 +1,11 @@
+.card {
+	background-color: #f4d1ae;
+	border-radius: 25px;
+	margin: 0 0 1.5em;
+	padding: 1em;
+}
+.cardtitle_row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

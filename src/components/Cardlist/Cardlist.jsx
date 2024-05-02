@@ -1,10 +1,11 @@
 import Card from "../Card/Card.jsx";
-
-function Cardlist() {
+import styles from "./Cardlist.module.css";
+function Cardlist({ recent }) {
 	return (
 		<>
-			<h2>I'm a Cardlist!</h2>
-			<Card />
+			{recent && <h2 className={styles.cardlist_title}>Recent</h2>}
+			<Card recent={recent} />
+			<Card recent={recent} />
 		</>
 	);
 }

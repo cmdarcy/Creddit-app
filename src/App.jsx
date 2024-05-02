@@ -10,12 +10,10 @@ function App() {
 			<Header />
 			<main className="main_container">
 				<section className="recent_container">
-					<h2 className="recent_title">Recent Posts</h2>
-					<Cardlist />
+					<Cardlist recent={true} />
 				</section>
 				<section className="posts_container">
-					<h2>Main Post Section</h2>
-					<Cardlist />
+					<Cardlist recent={false} />
 				</section>
 				<section className="shortcuts_container">
 					<Shortcut
