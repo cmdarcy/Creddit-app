@@ -1,5 +1,9 @@
 .profileIcon {
-	max-height: 50px;
+	max-height: 75px;
+}
+
+.card_profileIcon {
+	max-height: 45px;
 }
 
 @media screen and (max-width: 750px) {
