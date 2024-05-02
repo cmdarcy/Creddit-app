@@ -1,3 +1,4 @@
+import ProfileIcon from "../ProfileIcon/ProfileIcon";
 import styles from "./Header.module.css";
 
 function Header() {
@@ -7,11 +8,7 @@ function Header() {
 				<span className={styles.logo_C}>C</span>reddit
 			</h1>
 			<input className={styles.searchInput} type="text" placeholder="Search" />
-			<img
-				className={styles.profileIcon}
-				src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
-				alt="defaultProfileIcon"
-			/>
+			<ProfileIcon className="profileIcon" />
 		</div>
 	);
 }
