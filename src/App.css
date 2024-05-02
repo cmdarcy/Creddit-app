@@ -5,11 +5,13 @@ body {
 .main_container {
 	display: flex;
 	justify-content: space-between;
+	margin-left: 1em;
+	margin-right: 1em;
+	gap: 1.5em;
 }
 
 .recent_container {
 	text-align: center;
-	margin-left: 1em;
 }
 
 .recent_title {
@@ -20,7 +22,7 @@ body {
 	background-color: #f4d1ae;
 	border-radius: 20px;
 	width: 120px;
-	margin-right: 1em;
+	max-height: 150px;
 	padding: 0.5em;
 }
 
